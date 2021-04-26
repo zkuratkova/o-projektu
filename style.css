@@ -1,5 +1,6 @@
 .project,
-.authors {
+.authors,
+.members {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   width: 90%;
@@ -7,7 +8,8 @@
   color: #232c33;
 }
 
-.authors {
+.authors,
+.members {
   padding: 2rem;
 }
 
@@ -20,7 +22,8 @@
 }
 
 .project__main,
-.authors__main {
+.authors__main,
+.members__main {
   padding: 1rem;
 }
 
@@ -40,7 +43,8 @@
 }
 
 .project__title,
-.authors__title {
+.authors__title,
+.members__title {
   color: #ee003c;
   font-weight: 800;
   margin: 2rem;
@@ -51,24 +55,28 @@
   margin-top: 2rem;
 }
 
-.author {
+.author,
+.member {
   margin: 2rem 0;
 }
 
-.author__img {
+.author__img,
+.member__img {
   max-width: 15rem;
 }
 
 @media screen and (min-width: 700px) {
   .project,
-  .authors {
+  .authors,
+  .members {
     width: 35em;
     margin: 3rem auto;
     box-shadow: 1px 1px 10px rgba(163, 163, 163, 0.1);
   }
 
   .project__main,
-  .authors__main {
+  .authors__main,
+  .members__main {
     padding: 0 3rem 3rem;
   }
 
