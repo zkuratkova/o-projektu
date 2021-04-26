@@ -19,7 +19,8 @@
   justify-content: space-around;
 }
 
-.project__main {
+.project__main,
+.authors__main {
   padding: 1rem;
 }
 
@@ -66,7 +67,8 @@
     box-shadow: 1px 1px 10px rgba(163, 163, 163, 0.1);
   }
 
-  .project__main {
+  .project__main,
+  .authors__main {
     padding: 0 3rem 3rem;
   }
 
