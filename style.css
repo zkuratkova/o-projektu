@@ -61,6 +61,12 @@
   max-width: 15rem;
 }
 
+.member__img--zuzka {
+  height: 160px;
+  width: 15rem;
+  object-fit: cover;
+}
+
 @media screen and (min-width: 700px) {
   .project,
   .authors,
