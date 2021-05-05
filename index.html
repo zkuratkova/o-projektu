@@ -15,7 +15,7 @@
   </head>
   <body>
     <div class="project">
-      <nav class="nav">
+      <nav class="nav" id="nav-index">
         <a class="nav__item" href="index.html">O projektu</a
         ><a class="nav__item" href="tym.html">Náš tým</a>
         <a class="nav__item" href="autori.html">Autoři projektu</a>
@@ -29,15 +29,16 @@
         />
         <h1 class="project__title">Projekt Budoucnost</h1>
         <h2 class="project__motto">Pomoc dětem s výběrem střední školy</h2>
-        <iframe
-          width="400"
-          height="225"
-          src="https://www.youtube.com/embed/AtvGpBC_6Ew"
-          title="YouTube video player"
-          frameborder="1"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+        <div class="project__video-container">
+          <iframe
+            class="project__video"
+            src="https://www.youtube.com/embed/AtvGpBC_6Ew"
+            title="YouTube video player"
+            frameborder="1"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
         <p class="project__text">
           Zásadním problémem je totiž to, že většina dospěláků chce po dětech
           rozhodnutí (mnohdy poprvé v životě), ale neukáže jim způsob, jak
@@ -49,5 +50,6 @@
         </p>
       </main>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>

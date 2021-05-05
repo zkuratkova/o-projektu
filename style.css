@@ -4,17 +4,15 @@
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   width: 90%;
-  margin: 0.5rem auto;
   color: #232c33;
-  padding: 2rem;
+  margin: 0 auto;
 }
 
 .nav {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding: 1rem 0;
-  display: flex;
-  justify-content: space-around;
+  display: block;
 }
 
 .project__main,
@@ -24,7 +22,7 @@
 }
 
 .nav__item {
-  width: 100%;
+  display: block;
   text-decoration: none;
   padding: 0.5rem 1rem;
   color: #232c33;
@@ -51,6 +49,21 @@
   margin-top: 2rem;
 }
 
+.project__video-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+.project__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 .author,
 .member {
   margin: 2rem 0;
@@ -67,6 +80,13 @@
   object-fit: cover;
 }
 
+@media screen and (min-width: 550px) {
+  .nav {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
 @media screen and (min-width: 700px) {
   .project,
   .authors,
@@ -75,6 +95,7 @@
     margin: 3rem auto;
     box-shadow: 1px 1px 10px #a1a3a5;
     border-radius: 3px;
+    padding: 2rem;
   }
 
   .project__main,
@@ -86,5 +107,6 @@
   .nav__item {
     font-size: 1.2rem;
     padding: 1rem;
+    width: 100%;
   }
 }
